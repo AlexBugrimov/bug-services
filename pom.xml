@@ -8,6 +8,11 @@
     <artifactId>bug-services</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>bug-services</name>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>customer</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
